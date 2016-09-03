@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TP4-1</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body class="contenedor">
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="Images/header-logo.png">
+			</div>
+			<nav class="menu">
+				<ul class="lista1">
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		 <div class="imagenindex">
+			<h1>Contact</h1>
+			<p>Curabitur ultricies elementum mauris eu dapibus dui </p>
+			<p> aliquet mauris eusimod neque a molestie</p>
+		</div>
+	</header>
+
+	<section class="formulario">
+		<div class="texto">
+			<h2>Get in Touch</h2>
+			<h4>Duis egestasnibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
+		</div>
+
+		<div>
+			<form method="POST" action="enviar.php">
+				<div class="ancho">
+					<div class="caja">
+						<label for="nombre"></label>
+						<input class="nombre" name="nombre" placeholder="Name" type="text" required>
+						<label for="sobrenombre"></label>
+						<input class="sobrenombre" name="sobrenombre" placeholder="subname" type="text">
+						<label for="asunto"></label>
+						<input class="asunto" name="asunto" placeholder="Subject" type="text" required>
+					</div>
+
+					<label for="mensaje"></label>
+					<textarea class="mensaje" name="mensaje" placeholder="Message" ></textarea>
+				</div>
+				<input class="boton" type="submit" value="Submit">
+			</form>
+		</div>
+
+
+	</section>
+
+
+	<footer>
+		<div>
+			<h3>Hosting use <span class="numeros">500,000</span> happy customers. Want to see services?</h3>
+		</div>
+		<div id="oscuro">
+			<h5>©2015 Hostro. All right reserved.</h5>
+			<nav>
+				<ul class="lista1">
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<span class="ion-chevron-up"></span>
+				</ul>
+			</nav>
+		</div>
+
+	</footer>
+
+</body>
+</html>

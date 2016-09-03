@@ -1,0 +1,349 @@
+.contenedor {
+	max-width: 1000px;
+	margin: auto;
+	border: 1px solid blue;
+	overflow: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+		
+.lista1 {
+	text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.imagenindex {
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	align-content: center;
+	padding-top: 15%;
+	padding-left: 18%;
+	overflow: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	color: white;
+	background-image: url("C:/Users/Santi/Documents/CODERHOUSE/TP4/Images/indexbanner-bg3.jpg");
+	background-position: center;
+}
+
+.imagenindex p {
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 10px;
+}
+
+
+
+li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover {
+	background: black;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.barra {
+	color: white;
+	width: 895px;
+	height: 50px;
+}
+
+.boton {
+	color: white;
+	background: #2EAFFA;
+	height: 56px;
+	margin-left: -5px;
+	width: 100px;
+}
+
+.description {
+	position: relative;
+}
+
+.buscador {
+	position: absolute;
+	top: -20px;
+}
+
+.dots {
+    height: 7px;
+    width: 35px;
+    margin-top: -85px;
+    margin-right: 58px;
+}
+
+.container article {
+	margin-top: 50px;
+}
+
+.container h2 {
+	font-size: 1.1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.primero {
+	margin-left: 60px;
+}
+
+.widleft {
+    height: 33px;
+    width: 4px;
+    float: right;
+    margin-top: -45px;
+    margin-right: 22px;
+}
+
+.widright {
+    height: 33px;
+    width: 4px;
+    float: left;
+    margin-top: -45px;
+    margin-left: 22px;
+}
+
+.principal {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.principal h1 {
+	padding-top: 30px;
+}
+
+.dots2 {
+	position: absolute;
+	left: 49%;
+}
+
+.columnas {
+	margin-top: -50px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	list-style-type: none;
+	align-items: center;
+	align-content: center;
+
+}
+
+.caja {
+	margin: auto;
+	display: inline-block;
+	max-width: 350px;
+	height: 150px;
+}
+
+.imagenpricing {
+	margin-top: -50px;
+	height: 576px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	background-image: url("C:/Users/Santi/Documents/CODERHOUSE/TP4/Images/pricing-bg.jpg");
+	background-position: center;
+}
+
+.principal .container {
+	margin-top: 200px;
+	height: 422px;
+}
+
+.imagenpricing h2 {
+	padding-top: 150px;
+}
+
+.planes {
+	max-width: 120px;
+	height: 30px;
+	background: #2EAFFA;
+	color: white;
+	border-radius: 10%;
+	letter-spacing: 2px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.caja h4 {
+	display: inline-block;
+}
+
+.caja p.izquierda {
+	display: inline-block;
+	text-align: right;
+	padding-right: 60px;
+	margin-top: -5px;
+}
+
+.caja p.derecha {
+	display: inline-block;
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -5px;
+}
+.iconosizquierda {
+	float: right;
+	display: inline-block;
+}
+
+.iconosderecha {
+	float: left;
+	display: inline-block;
+}
+
+.informacion {
+	/*position: relative;*/
+}
+
+.dots1 {
+	margin-top: 30px;
+}
+
+.columnas .iphone {
+	margin-left: 30px;
+}
+
+.columnas .dots1 {
+	margin-left: 30px;
+}
+
+h4.mayusculaizq {
+	text-align: right;
+	text-transform: uppercase;
+	margin-right: 10px;
+	float: right;
+}
+
+h4.mayusculader {
+	text-transform: uppercase;
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.cuenta {
+	display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+.rectangulo {
+	width: 185px;
+	height: 400px;
+	background: white;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 3px 3px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+footer {
+	background: #072a40;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#oscuro {
+	background: #000f1f;
+	display: flex;
+    justify-content: space-between;
+}
+
+footer #oscuro ul.lista1 li a {
+	color: white;
+}
+
+footer h3 {
+	    padding: 50px 0 40px 0;
+}
+
+span.numeros {
+	color: blue;
+	font-size: 1.5em;
+}
+
+.box {
+    border-bottom: 1px solid grey;
+    max-width: 150px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box h4.mayuscula {
+	text-transform: uppercase;
+    font-size: 12px;
+}
+
+.box p {
+	font-size: 36px;
+    font-weight: bold;
+    position: relative;
+}
+
+.box span.mount {
+	font-size: 8px;
+	font-weight: normal;
+	display: block;
+}
+
+.box span.pesos {
+	font-size: 0.5em;
+	position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.box span.decimales {
+	font-size: 0.5em;
+	position: absolute;
+	top: 5px;
+}
+td.texto {
+	font-size: 12px;
+	text-align: left;
+}
+
+.celeste {
+	font-size: 12px;
+	text-align: right;
+	color: lightblue;
+}
+
+.amarillo {
+	font-size: 12px;
+	text-align: right;	
+	color: yellow;
+}
+
+.marron {
+	font-size: 12px;
+	text-align: right;
+	color: brown;
+}
+
+.rojo {
+	font-size: 12px;
+	text-align: right;
+	color: red;
+}

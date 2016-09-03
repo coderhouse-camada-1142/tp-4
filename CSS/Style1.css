@@ -1,0 +1,150 @@
+.contenedor {
+	max-width: 1000px;
+	margin: auto;
+	border: 1px solid blue;
+	overflow: auto;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+		
+.lista1 {
+	text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.imagenindex {
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	padding-top: 10%;
+	overflow: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	color: white;
+	background-image: url("C:/Users/Santi/Documents/CODERHOUSE/TP4/Images/indexbanner-bg2.jpg");
+	background-position: center;
+}
+
+.imagenindex p {
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 10px;
+}
+
+
+
+li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover {
+	background: black;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.asunto {
+	height: 50px;
+	margin-top: 5px;
+	border: 1px solid lightblue;
+}
+
+.caja {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 40%;
+	margin-right: 10px;
+}
+
+.ancho {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.mensaje {
+	width: 40%;
+	margin-left: 10px;
+	border: 1px solid lightblue;
+	border-radius: 1%;
+}
+
+.sobrenombre {
+	height: 50px;
+	margin: 5px 0 5px 0;
+	border: 1px solid lightblue;
+	border-radius: 1%;
+}
+
+.nombre {
+	height: 50px;
+	margin-bottom: 5px;
+	border: 1px solid lightblue;
+	border-radius: 1%;
+}
+
+.formulario {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+.formulario h4 {
+	font-size: 18px;
+	color: grey;
+}
+
+footer {
+	background: #072a40;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#oscuro {
+	background: #000f1f;
+	display: flex;
+    justify-content: space-between;
+}
+
+footer #oscuro ul.lista1 li a {
+	color: white;
+	padding-right: 10px;
+}
+
+footer h3 {
+	    padding: 50px 0 40px 0;
+}
+
+span.numeros {
+	color: blue;
+	font-size: 1.5em;
+}
+
+.boton {
+	width: 15%;
+	height: 50px;
+	background: #2EAFFA;
+	margin-top: 20px;
+	border-radius: 1%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
