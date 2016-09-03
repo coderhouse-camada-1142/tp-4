@@ -1,3 +1,5 @@
+/*Body*/
+
 .contenedor {
 	max-width: 1000px;
 	margin: auto;
@@ -6,6 +8,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* header*/
 .container {
 	display: flex;
 	justify-content: space-between;
@@ -43,9 +46,9 @@
 	font-size: 16px;
 	line-height: 10px;
 }
+/*fin header*/
 
-
-
+/* menu: afecta al header y al footer*/
 li a {
 	text-decoration: none;
 	font-weight: bold;
@@ -59,18 +62,24 @@ li a:hover {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* section description*/
+/*barra buscador*/
 .barra {
 	color: white;
 	width: 895px;
 	height: 50px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .boton {
 	color: white;
 	background: #2EAFFA;
-	height: 56px;
+	height: 54px;
 	margin-left: -5px;
-	width: 100px;
+	margin-top: -2px;
+	width: 101px;
 }
 
 .description {
@@ -81,10 +90,10 @@ li a:hover {
 	position: absolute;
 	top: -20px;
 }
+/*fin barra buscador*/
 
-.dots {
-    height: 7px;
-    width: 35px;
+/* container */
+.dots { /*puntos horizontales*/
     margin-top: -85px;
     margin-right: 58px;
 }
@@ -101,18 +110,16 @@ li a:hover {
 .primero {
 	margin-left: 60px;
 }
+/*fin container*/
 
+/*Principal*/
 .widleft {
-    height: 33px;
-    width: 4px;
     float: right;
     margin-top: -45px;
     margin-right: 22px;
 }
 
 .widright {
-    height: 33px;
-    width: 4px;
     float: left;
     margin-top: -45px;
     margin-left: 22px;
@@ -165,7 +172,9 @@ li a:hover {
 	margin-top: 200px;
 	height: 422px;
 }
+/*fin principal*/
 
+/*Informacion*/
 .imagenpricing h2 {
 	padding-top: 150px;
 }
@@ -207,10 +216,6 @@ li a:hover {
 	display: inline-block;
 }
 
-.informacion {
-	/*position: relative;*/
-}
-
 .dots1 {
 	margin-top: 30px;
 }
@@ -243,6 +248,7 @@ h4.mayusculader {
     margin-top: -150px;
 }
 
+/*rectangulo*/
 .rectangulo {
 	width: 185px;
 	height: 400px;
@@ -254,32 +260,6 @@ h4.mayusculader {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-}
-
-footer {
-	background: #072a40;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-}
-
-#oscuro {
-	background: #000f1f;
-	display: flex;
-    justify-content: space-between;
-}
-
-footer #oscuro ul.lista1 li a {
-	color: white;
-}
-
-footer h3 {
-	    padding: 50px 0 40px 0;
-}
-
-span.numeros {
-	color: blue;
-	font-size: 1.5em;
 }
 
 .box {
@@ -347,3 +327,33 @@ td.texto {
 	text-align: right;
 	color: red;
 }
+/*fin rectangulo*/
+/*fin principal*/
+
+/*footer*/
+footer {
+	background: #072a40;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#oscuro {
+	background: #000f1f;
+	display: flex;
+    justify-content: space-between;
+}
+
+footer #oscuro ul.lista1 li a {
+	color: white;
+}
+
+footer h3 {
+	    padding: 50px 0 40px 0;
+}
+
+span.numeros {
+	color: blue;
+	font-size: 1.5em;
+}
+/*fin footer*/
