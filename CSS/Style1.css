@@ -4,7 +4,7 @@
 	border: 1px solid blue;
 	overflow: auto;
 }
-
+ /*header*/
 .container {
 	display: flex;
 	justify-content: space-between;
@@ -41,7 +41,7 @@
 	font-size: 16px;
 	line-height: 10px;
 }
-
+/*fin header*/
 
 
 li a {
@@ -109,6 +109,19 @@ li a:hover {
 	color: grey;
 }
 
+.boton {
+	width: 15%;
+	height: 50px;
+	background: #2EAFFA;
+	margin-top: 20px;
+	border-radius: 1%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
 footer {
 	background: #072a40;
 	color: white;
@@ -136,15 +149,3 @@ span.numeros {
 	font-size: 1.5em;
 }
 
-.boton {
-	width: 15%;
-	height: 50px;
-	background: #2EAFFA;
-	margin-top: 20px;
-	border-radius: 1%;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 2px;
-}
